@@ -5,7 +5,7 @@ Jest to aplikacja webowa którą postanowiłem tworzyć w wolnym czasie. Celem p
 Pomysł na aplikację zrodził się z potrzeby posiadania prostego i dopasowanego do moich potrzeb systemu, a samo jej tworzenie stało się świetną okazją do nauki nowych technologii i praktycznego zastosowania zdobytej wiedzy. 
 
 ## Zamysł aplikacji przedstawiam tutaj 
-[Zamysł aplikacji](whats_gym_app.md)
+Przeczytaj więcej o aplikacji [tutaj](whats_gym_app.md)
 
 ## Czego się nauczyłem podczas tworzenia aplikacji
 
@@ -16,3 +16,7 @@ Pomysł na aplikację zrodził się z potrzeby posiadania prostego i dopasowaneg
 - Uzycia JavaScript do interakcji z użytkownikiem
 - Implementacji systemu autoryzacji z użyciem JSON Web Token (JWT)
 - Integracji frontendu z backendem
+
+## Aktualny stan
+
+Aktualnie z powodu braku czasu nad deploy aplikacji na serwer, możliwe jest jej uruchomienie jedynie na lokalnej maszynie :(
