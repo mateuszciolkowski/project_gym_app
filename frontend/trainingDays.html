@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dni Treningowe</title>
+  <link rel="stylesheet" href="css/trainingDays.css">
+</head>
+<body>
+  <a href="index.html" class="back-button">Powrót do strony głównej</a>
+  <div class="container">
+    <h1>Dni Treningowe</h1>
+    
+    <div id="training-days-list" class="training-days-list" style="overflow-y: auto;">
+    </div>
+  </div>
+
+  <div id="editTrainingDayModal" style="display:none;">
+    <form id="editTrainingDayForm">
+      <label for="editTrainingDate">Data:</label>
+      <input type="date" id="editTrainingDate" required>
+      <label for="editLocation">Miejsce:</label>
+      <input type="text" id="editLocation" required>
+      <label for="editMuscleGroupSelect">Partia mięśniowa:</label>
+      <select id="editMuscleGroupSelect">
+        <option value="all">Wszystkie</option>
+        <option value="klatka piersiowa">Klatka piersiowa</option>
+        <option value="plecy">Plecy</option>
+        <option value="barki">Barki</option>
+        <option value="biceps">Biceps</option>  
+        <option value="triceps">Triceps</option>  
+        <option value="nogi">Nogi</option>
+        <option value="brzuch">Brzuch</option>
+        <option value="łydki">Łydki</option>
+        <option value="przedramiona">Przedramiona</option>
+        <option value="pośladki">Pośladki</option>
+      </select>
+      <label for="editExerciseSelect">Ćwiczenia:</label>
+      <select id="editExerciseSelect"></select>
+      <button type="button" id="addNewExerciseBtn">Dodaj ćwiczenie</button>
+      <ul id="editAddedExercisesList"></ul>
+      <button type="button" id="saveEditedTrainingDayBtn">Zapisz</button>
+      <button type="button" id="cancelEditTrainingDayBtn">Anuluj</button>
+    </form>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/TrainingDaysList.js"></script>
+</body>
+</html>
